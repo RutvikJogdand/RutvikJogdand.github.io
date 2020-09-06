@@ -9,5 +9,23 @@
     height: 100px;
 }
 
+#have_completed
+{
+    display: flex;
+    flex-direction: row;
+}
+
+#have_completed > div
+{
+    flex: 1;
+}
+
+.num_hrs
+{
+    padding: 10px;
+    border: 1px solid black;
+    margin-right: 20px;
+    font-size: 20px;
+}
 
 
