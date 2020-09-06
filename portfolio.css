@@ -9,6 +9,24 @@
     height: 100px;
 }
 
+.projects_flexbox
+{
+    display: flex;
+    flex-direction: row;
+}
+
+.projects_flexbox >div
+{
+    flex: 1;
+    margin-right: 20px;
+}
+
+.project_img
+{
+    height: 300px;
+    
+}
+
 #have_completed
 {
     display: flex;
@@ -28,4 +46,19 @@
     font-size: 20px;
 }
 
+
+@media only screen and (min-width: 340px) and (max-width: 1200px)
+{
+    .projects_flexbox
+    {
+        display: flex;
+        flex-direction: column;
+        margin-left: 5%;
+    }
+
+    .projects_flexbox >div
+    {
+        margin-bottom: 20px;
+    }
+}
 
