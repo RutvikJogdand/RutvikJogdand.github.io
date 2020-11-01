@@ -31,23 +31,65 @@
 {
     display: flex;
     flex-direction: row;
+    margin-left: 5.5%;
 }
 
 #have_completed > div
 {
     flex: 1;
+    margin-right: 10px;
 }
 
 .num_hrs
 {
     padding: 10px;
     border: 1px solid black;
+    border-radius: 200px;
     margin-right: 20px;
     font-size: 20px;
 }
 
+.mainCard .githubBtns
+{
+    display: none;
+}
 
-@media only screen and (min-width: 340px) and (max-width: 1200px)
+.mainCard:hover .githubBtns
+{
+    display: block;
+    margin-bottom: 20px;
+}
+
+.mainCard:hover
+{
+    -webkit-box-shadow: 1px 9px 10px 0px rgba(85, 57, 50, 0.43);
+    -moz-box-shadow:    1px 9px 10px 0px rgba(85, 57, 50, 0.43);
+    box-shadow:         1px 9px 10px 0px rgba(85, 57, 50, 0.43);
+}
+
+.mainCard:hover .info
+{
+    display: none;
+}
+
+#proficiency
+{
+    display: flex;
+    text-align: center;
+}
+
+#proficiency > div
+{
+    flex: 1;
+    margin-right: 10px;
+}
+
+#proficiency > p
+{
+    padding: 15px;
+}
+
+@media only screen and (min-width: 280px) and (max-width: 1100px)
 {
     .projects_flexbox
     {
@@ -56,9 +98,15 @@
         margin-left: 5%;
     }
 
+    #proficiency
+    {
+    display: flex;
+    text-align: center;
+    flex-direction: column;
+    }
+
     .projects_flexbox >div
     {
         margin-bottom: 20px;
     }
 }
-

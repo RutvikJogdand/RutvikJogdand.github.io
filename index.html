@@ -37,7 +37,7 @@
         </div>
     </div>
     <h4 class="text-center mb-3">Tech-stack:</h4>
-    <div class="row">        
+    <div class="row ml-1">        
         <div class="text-center col-lg-3 col-md-6 col-sm-6 col-xs-6 mb-2">
             <img class="img-responsive img-fluid logo" src="./photos/html.png" id="html_logo">
             <div class="lead">HTML</div>
@@ -54,48 +54,113 @@
             <img class="img-responsive img-fluid logo" src="./photos/javascript.png" id="javascript_logo">
             <div class="lead">Javascript</div>
         </div>
+        <div class="text-center col-lg-3 offset-lg-1 col-md-6 col-sm-6 col-xs-6 mb-2">
+            <img class="img-responsive img-fluid logo" src="./photos/reactLogo.jpg" id="react-logo">
+            <div class="lead">React</div>
+        </div>
+        <div class="text-center col-lg-3 col-md-6 col-sm-6 col-xs-6 mb-2">
+            <img class="img-responsive img-fluid logo" src="./photos/reduxLogo.png" id="redux-logo">
+            <div class="lead">Redux</div>
+        </div>
+        <div class="text-center col-lg-3 col-md-6 col-sm-6 col-xs-6 mb-2">
+            <img class="img-responsive img-fluid logo" src="./photos/mongoDB-Logo.png" id="mongo-logo">
+            <div class="lead">MongoDB</div>
+        </div>
+    </div>
+    <hr>
+    <h4 class="text-center mb-3">Proficiencies:</h4>
+    <div>
+        <div id="proficiency">
+            <div>
+                <img class="img-responsive img-fluid logo" height="300px" src="./photos/frontend.png" >
+                <h3>Frontend</h3>
+                <p>
+                    I'm like Jimmy Fallon. I host the show and interact with people
+                </p>
+            </div>
+            <div>
+                <img class="img-responsive img-fluid logo" height="300px" src="./photos/react.png" >
+                <h3>React</h3>
+                <p>
+                    I help seperate out the things required to run the show.
+                    I'm all about components and making it easy to run the show.
+                </p>
+            </div>
+            <div>
+                <img class="img-responsive img-fluid logo" height="300px" src="./photos/backend.png" >
+                <h3>Backend</h3>
+                <p>
+                    I'm the production, the things the audience doesn't see.
+                    I provide the data, manage who has access to what etc.
+                </p>
+            </div>
+            <div>
+                <img class="img-responsive img-fluid logo" height="300px" src="./photos/DSA.png" >
+                <h3>Data Structures and Algorithms</h3>
+                <p>
+                    The reason why everything runs efficiently is because of me.
+                    I put the things in their right place.
+                </p>
+            </div>
+        </div>
     </div>
     <hr>
     <h4 class="text-center mb-3">Projects:</h4>
-    <div class="row container offset-lg-1 offset-sm-1 projects_flexbox">
-        <div class="card mb-2 pb-2">
+    <div class="row  projects_flexbox">
+        <div class="mainCard card mb-2 pb-2">
             <img src="./photos/expense_manager.jpeg" class="card-img-top img-fluid project_img" alt="expense manager">
             <div class="card-body">
-              <h5 class="card-title">Expense Manager</h5>
-              <p class="card-text">An app to track and manage expenses.</p>
-              <a href="https://github.com/RutvikJogdand/masai-sprint-2" class="btn btn-primary text-center">GitHub</a>
+                <div class="info">
+                    <h5 class="card-title">Expense Manager</h5>
+                    <p class="card-text">An app to track and manage expenses.</p>
+
+                </div>
+              <a href="https://github.com/RutvikJogdand/masai-sprint-2" class="btn btn-primary text-center githubBtns">GitHub</a>
+              <button class="githubBtns btn btn-secondary col-12">Demo</button>
             </div>
           </div>
-          <div class="card mt-2">
+          <div class="mainCard card mt-2">
             <img src="./photos/fitness_tracker.jpg" class="card-img-top img-fluid project_img" alt="expense manager">
             <div class="card-body">
-              <h5 class="card-title">Fitness Tracker</h5>
-              <p class="card-text">App to manage and track daily caloric intake based on maintainence calories and fitness goals</p>
-              <a href="https://github.com/RutvikJogdand/masai-sprint-2.1" class="btn btn-primary text-center">GitHub</a>
+                <div class="info">
+                    <h5 class="card-title">Fitness Tracker</h5>
+                    <p class="card-text">App to manage and track daily caloric intake based on maintainence calories and fitness goals</p>
+
+                </div>
+              <a href="https://github.com/RutvikJogdand/masai-sprint-2.1" class="btn btn-primary text-center githubBtns">GitHub</a>
+              <button class="githubBtns btn btn-secondary col-12">Demo</button>
             </div>
           </div>
-          <div class="card">
+          <div class="mainCard card">
             <img src="./photos/engineersHub.jpg" class="card-img-top img-fluid project_img" alt="expense manager">
             <div class="card-body">
-              <h5 class="card-title">Engineers Hub</h5>
-              <p class="card-text">A website for engineers to search for jobs, read up news etc</p>
-              <a href="https://github.com/RutvikJogdand/masai-project-3" class="btn btn-primary text-center">GitHub</a>
+                <div class="info">
+                    <h5 class="card-title">Engineers Hub</h5>
+                    <p class="card-text">A website for engineers to search for jobs, read up news etc</p>
+
+                </div>
+              <a href="https://github.com/RutvikJogdand/masai-project-3" class="btn btn-primary text-center githubBtns">GitHub</a>
+              <button class="githubBtns btn btn-secondary col-12">Demo</button>
             </div>
           </div>
-          <div class="card">
+          <div class="mainCard card">
             <img src="./photos/TechPsyche.png" class="card-img-top img-fluid project_img" alt="expense manager">
             <div class="card-body">
-              <h5 class="card-title">TechPsyche.com</h5>
-              <p class="card-text">A basic blogging website mainly about but not limited to topics related to fields of
-                  technology and psychology
-              </p>
-              <a href="https://github.com/Tripathikritika/TechPsyche.com" class="btn btn-primary text-center">GitHub</a>
+                <div class="info">
+                    <h5 class="card-title">TechPsyche.com</h5>
+                    <p class="card-text">A basic blogging website mainly about but not limited to topics related to fields of
+                        technology and psychology
+                    </p>
+
+                </div>
+              <a href="https://github.com/Tripathikritika/TechPsyche.com" class="btn btn-primary text-center githubBtns">GitHub</a>
+              <button class="githubBtns btn btn-secondary col-12">Demo</button>
             </div>
           </div>
     </div>
     <hr>
     <h4 class="text-center mb-3">I have completed:</h4>
-    <div id="have_completed" class="row container ml-2">
+    <div id="have_completed" class="row container">
         <div class="offset-lg-2 offset-sm-1">
             <div class="num_hrs text-center mr-sm-2">1200+</div>
             <p class="text-center">Hours of coding</p>
