@@ -1,112 +1,161 @@
-#my_name
+#PhotoBox
 {
-    font-size: 30px;
-    margin-bottom: -3px;
+    height: 455px;
+    border: 1px solid black;
+    margin-top: 30px;
+    background-image: url("./photos/ProfileBackgroud.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
 }
 
-.logo
+#PhotoBox > img
 {
-    height: 100px;
+    position: absolute;
+   top: 13.5px;
+   left: -40px;
+   z-index: 1;
+   height: 65%;
 }
 
-.projects_flexbox
+#AboutMe
+{
+    text-align: right;
+    color: white;
+    padding: 20px;
+    background-color: rgba(0, 0, 0, 0.295);
+}
+
+#AboutMe > p
+{
+    padding-left: 170px;
+}
+
+.phoneEmail
+{
+    margin-left: 10px;
+}
+
+.linkToEmail
+{
+    text-decoration: none;
+    color: white;
+}
+
+.linkToEmail:hover
+{
+    color: white;
+}
+
+#techKnown, #ProficiencyBox
 {
     display: flex;
-    flex-direction: row;
+    flex-wrap: wrap;
+    text-align: center;
+    justify-content: center;
 }
 
-.projects_flexbox >div
-{
-    flex: 1;
-    margin-right: 20px;
-}
-
-.project_img
-{
-    height: 300px;
-    
-}
-
-#have_completed
-{
-    display: flex;
-    flex-direction: row;
-    margin-left: 5.5%;
-}
-
-#have_completed > div
-{
-    flex: 1;
-    margin-right: 10px;
-}
-
-.num_hrs
+#TechStack, #ProficiencyMain
 {
     padding: 10px;
-    border: 1px solid black;
-    border-radius: 200px;
-    margin-right: 20px;
-    font-size: 20px;
 }
 
-.mainCard .githubBtns
+#TechStack > h2
 {
-    display: none;
+    text-align: center;
+    border-bottom: 1px solid gainsboro;
 }
 
-.mainCard:hover .githubBtns
+#ProficiencyMain > h2
 {
-    display: block;
-    margin-bottom: 20px;
-}
-
-.mainCard:hover
-{
-    -webkit-box-shadow: 1px 9px 10px 0px rgba(85, 57, 50, 0.43);
-    -moz-box-shadow:    1px 9px 10px 0px rgba(85, 57, 50, 0.43);
-    box-shadow:         1px 9px 10px 0px rgba(85, 57, 50, 0.43);
-}
-
-.mainCard:hover .info
-{
-    display: none;
-}
-
-#proficiency
-{
-    display: flex;
     text-align: center;
 }
 
-#proficiency > div
+#techKnown > div
 {
     flex: 1;
-    margin-right: 10px;
-}
-
-#proficiency > p
-{
-    padding: 15px;
-}
-
-@media only screen and (min-width: 280px) and (max-width: 1100px)
-{
-    .projects_flexbox
-    {
-        display: flex;
-        flex-direction: column;
-        margin-left: 5%;
-    }
-
-    #proficiency
-    {
-    display: flex;
+    padding: 20px 0px;
+    min-width: 120px;
+    max-width: 130px;
     text-align: center;
-    flex-direction: column;
+    border-radius: 10px;
+    margin: 10px;
+    -webkit-box-shadow: 0px 2px 7px 0px rgba(50, 50, 50, 0.88);
+    -moz-box-shadow:    0px 2px 7px 0px rgba(50, 50, 50, 0.88);
+    box-shadow:         0px 2px 7px 0px rgba(50, 50, 50, 0.88);
+}
+ 
+#ProficiencyBox > div
+{
+    flex: 1;
+    padding: 20px 20px;
+    min-width: 240px;
+    max-width: 250px;
+    text-align: center;
+    border-radius: 10px;
+    margin: 10px 40px;
+    -webkit-box-shadow: 0px 2px 7px 0px rgba(50, 50, 50, 0.88);
+    -moz-box-shadow:    0px 2px 7px 0px rgba(50, 50, 50, 0.88);
+    box-shadow:         0px 2px 7px 0px rgba(50, 50, 50, 0.88);
+}
+
+.githubStats
+{
+    text-align: center;
+}
+
+
+
+@media only screen and (min-width: 280px) and (max-width: 578px)
+{
+    #PhotoBox > img
+    {
+    position: relative;
+    top: 225px;
+    right: 30px;
+    z-index: 1;
+    height: 50%;
     }
 
-    .projects_flexbox >div
+    
+    #AboutMe
     {
-        margin-bottom: 20px;
+        position: relative;
+        bottom: 229px;
+        padding-right: 30px;
+        padding-top: 1px;
+        padding-bottom: 1px;
     }
+
+    #AboutMe > p
+    {
+        padding-left: 10px;
+        font-size: 12px;
+    }
+
+    .phoneEmail
+    {
+        margin-left: 8px;
+        font-size: 11px;
+    }
+}
+
+@media only screen and (min-width: 635px) and (max-width: 768px)
+{
+    #PhotoBox > img
+    {
+    position: relative;
+    top: 135px;
+    right: 30px;
+    z-index: 1;
+    height: 70%;
+    }
+
+    #AboutMe
+    {
+        position: relative;
+        bottom: 290px;
+        padding-right: 30px;
+    }
+
 }

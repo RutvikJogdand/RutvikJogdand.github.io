@@ -3,187 +3,291 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-    <link rel="stylesheet" href="./portfolio.css" type="text/css">
-    <title>Portfolio</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"/>
+    <link rel="stylesheet" href="./portfolio.css" type="text/css"/>
+    <link rel="stylesheet" href="./projectCards.css" type="text/css"/>
+    <link href="https://icons8.com/icon/jD-fJzVguBmw/redux">
+   
+    <title>Rutvik Jogdand</title>
 </head>
 <body>
-    <div class="text-center d-flex justify-content-center">
-        <div id="img_div" class="text-center p-2 w-25">
-            <img class="img-responsive img-fluid rounded-circle border border-danger bg-danger p-2" src="./portfolio_pic.jpg" id="img_portfolio" alt="profile_pic">
-            <p id="my_name" class="lead font-weight-bolder">Rutvik Jogdand</p>
-            <p class="text-danger">Full Stack Developer</p>
-        </div>
-    </div>
-    <div class="row text-center mb-4">
-        <div class="col-lg-4 col-md-4 col-sm-12 float-left">
-            <div><i class="fa fa-map-marker"></i> Navi Mumbai, India</div>
-        </div>
-        <div class="col-lg-4 col-md-4 col-sm-12 float-left">
-            <div><i class="fa fa-phone"></i> +91-7021939049</div>
-        </div>
-        <div class="col-lg-4 col-md-4 col-sm-12 offset-lg-0 float-left">
-            <div><i class="fa fa-envelope-o"></i> jogdandrutvik7@gmail.com</div>
-        </div>
-    </div>
-    <div class="px-5 mb-4">
-        <div class="text-center">
-            <h4>About Me:</h4>
-            I'm passionate about creating useful things. Web-development is both a hobby and 
-            a exciting career option. Being at Masai School has given me the strength and skills required to meet demands 
-            of the corporate world.
-            I look forward to working with a great team to help build useful products.
-        </div>
-    </div>
-    <h4 class="text-center mb-3">Tech-stack:</h4>
-    <div class="row ml-1">        
-        <div class="text-center col-lg-3 col-md-6 col-sm-6 col-xs-6 mb-2">
-            <img class="img-responsive img-fluid logo" src="./photos/html.png" id="html_logo">
-            <div class="lead">HTML</div>
-        </div>
-        <div class="text-center col-lg-3 col-md-6 col-sm-6 col-xs-6 mb-2">
-            <img class="img-responsive img-fluid logo" src="./photos/css.png" id="css_logo">
-            <div class="lead">CSS</div>
-        </div>
-        <div class="text-center col-lg-3 col-md-6 col-sm-6 col-xs-6 mb-2">
-            <img class="img-responsive img-fluid logo" src="./photos/bootstrap.png" id="bootstrap_logo">
-            <div class="lead">Bootstrap</div>
-        </div>
-        <div class="text-center col-lg-3 col-md-6 col-sm-6 col-xs-6 mb-2">
-            <img class="img-responsive img-fluid logo" src="./photos/javascript.png" id="javascript_logo">
-            <div class="lead">Javascript</div>
-        </div>
-        <div class="text-center col-lg-3 offset-lg-1 col-md-6 col-sm-6 col-xs-6 mb-2">
-            <img class="img-responsive img-fluid logo" src="./photos/reactLogo.jpg" id="react-logo">
-            <div class="lead">React</div>
-        </div>
-        <div class="text-center col-lg-3 col-md-6 col-sm-6 col-xs-6 mb-2">
-            <img class="img-responsive img-fluid logo" src="./photos/reduxLogo.png" id="redux-logo">
-            <div class="lead">Redux</div>
-        </div>
-        <div class="text-center col-lg-3 col-md-6 col-sm-6 col-xs-6 mb-2">
-            <img class="img-responsive img-fluid logo" src="./photos/mongoDB-Logo.png" id="mongo-logo">
-            <div class="lead">MongoDB</div>
-        </div>
-    </div>
-    <hr>
-    <h4 class="text-center mb-3">Proficiencies:</h4>
-    <div>
-        <div id="proficiency">
+    <div id="PhotoBox">
+        <img src="photos/myPhoto_1_1.png"  />
+        <div id="AboutMe">
+            About Me:
+            <p>
+                I'm passionate about creating useful things. Web-development is both a hobby and a exciting career option.
+                 Being at Masai School has given me the strength and skills required to meet demands of the corporate world. 
+                I look forward to working with a great team to help build useful products.
+            </p>
+
             <div>
-                <img class="img-responsive img-fluid logo" height="300px" src="./photos/frontend.png" >
-                <h3>Frontend</h3>
-                <p>
-                    I'm like Jimmy Fallon. I host the show and interact with people
+                <p> From: <br/>
+                    <i class="fa fa-map-marker"></i> Navi Mumbai, India 
                 </p>
-            </div>
-            <div>
-                <img class="img-responsive img-fluid logo" height="300px" src="./photos/react.png" >
-                <h3>React</h3>
                 <p>
-                    I help seperate out the things required to run the show.
-                    I'm all about components and making it easy to run the show.
+                    Contact: <br/>
+                    <span class="phoneEmail"> <i class="fa fa-phone"></i> +91-7021939049 </span> &nbsp;
+                    <a class="linkToEmail" href="mailto:jogdandrutvik7@gmail.com">
+                        <span class="phoneEmail"> <i class="fa fa-envelope-o"></i> jogdandrutvik7@gmail.com </span>
+                    </a>   
                 </p>
-            </div>
-            <div>
-                <img class="img-responsive img-fluid logo" height="300px" src="./photos/backend.png" >
-                <h3>Backend</h3>
                 <p>
-                    I'm the production, the things the audience doesn't see.
-                    I provide the data, manage who has access to what etc.
+                    <p>Find me on: </p>
+                    <a href="https://github.com/RutvikJogdand">
+                        <img height="30px" src="./photos/GithubLogo.jpg"/> 
+                    </a>&nbsp; &nbsp;
+
+                    <a href="https://www.hackerrank.com/jogdandrutvik7"> 
+                        <img height="30px" src="./photos/HackerRankLogo.png"/>
+                    </a> &nbsp; &nbsp;
+
+                    <img height="30px" src="./photos/LinkedInLogo.png"/>
                 </p>
-            </div>
-            <div>
-                <img class="img-responsive img-fluid logo" height="300px" src="./photos/DSA.png" >
-                <h3>Data Structures and Algorithms</h3>
+
                 <p>
-                    The reason why everything runs efficiently is because of me.
-                    I put the things in their right place.
+                    <a style="background-color: rgba(250, 233, 3, 0.877);" href="https://drive.google.com/file/d/1kxGdTJZc1HqsZXUcQ3YYhhMK9ZNLlTqh/view?usp=sharing" class="btn ">Resume</a>
                 </p>
             </div>
         </div>
     </div>
-    <hr>
-    <h4 class="text-center mb-3">Projects:</h4>
-    <div class="row  projects_flexbox">
-        <div class="mainCard card mb-2 pb-2">
-            <img src="./photos/expense_manager.jpeg" class="card-img-top img-fluid project_img" alt="expense manager">
-            <div class="card-body">
-                <div class="info">
-                    <h5 class="card-title">Expense Manager</h5>
-                    <p class="card-text">An app to track and manage expenses.</p>
 
-                </div>
-              <a href="https://github.com/RutvikJogdand/masai-sprint-2" class="btn btn-primary text-center githubBtns">GitHub</a>
-              <button class="githubBtns btn btn-secondary col-12">Demo</button>
-            </div>
-          </div>
-          <div class="mainCard card mt-2">
-            <img src="./photos/fitness_tracker.jpg" class="card-img-top img-fluid project_img" alt="expense manager">
-            <div class="card-body">
-                <div class="info">
-                    <h5 class="card-title">Fitness Tracker</h5>
-                    <p class="card-text">App to manage and track daily caloric intake based on maintainence calories and fitness goals</p>
+    <div id="TechStack">
 
-                </div>
-              <a href="https://github.com/RutvikJogdand/masai-sprint-2.1" class="btn btn-primary text-center githubBtns">GitHub</a>
-              <button class="githubBtns btn btn-secondary col-12">Demo</button>
-            </div>
-          </div>
-          <div class="mainCard card">
-            <img src="./photos/engineersHub.jpg" class="card-img-top img-fluid project_img" alt="expense manager">
-            <div class="card-body">
-                <div class="info">
-                    <h5 class="card-title">Engineers Hub</h5>
-                    <p class="card-text">A website for engineers to search for jobs, read up news etc</p>
+        <h2 >Tech-stack:</h2>
 
-                </div>
-              <a href="https://github.com/RutvikJogdand/masai-project-3" class="btn btn-primary text-center githubBtns">GitHub</a>
-              <button class="githubBtns btn btn-secondary col-12">Demo</button>
+        <div id="techKnown">    
+            <div>
+                <img height="80px" src="./photos/html.png"/> 
+                <p>HTML</p>
             </div>
-          </div>
-          <div class="mainCard card">
-            <img src="./photos/TechPsyche.png" class="card-img-top img-fluid project_img" alt="expense manager">
-            <div class="card-body">
-                <div class="info">
-                    <h5 class="card-title">TechPsyche.com</h5>
-                    <p class="card-text">A basic blogging website mainly about but not limited to topics related to fields of
-                        technology and psychology
-                    </p>
 
-                </div>
-              <a href="https://github.com/Tripathikritika/TechPsyche.com" class="btn btn-primary text-center githubBtns">GitHub</a>
-              <button class="githubBtns btn btn-secondary col-12">Demo</button>
+            <div>
+                <img height="80px" src="./photos/css.png"/>
+                <p>CSS</p>
             </div>
-          </div>
+            
+            <div>
+                <img height="80px" src="./photos/bootstrap.png"/>
+                <p>Bootstrap</p>
+            </div>
+
+            <div>
+                <img height="80px" src="./photos/javascript.png"/>
+                <p>Javascript</p>
+            </div>
+
+            <div>
+                <img height="80px" src="./photos/reactLogo.jpg"/>
+                <p>React</p>
+            </div>
+
+            <div>
+                <img height="80px" src="./photos/reduxLogo.png"/>
+                <p>Redux</p>
+            </div>
+
+            <div>
+                <img height="80px" src="./photos/mongoDB-Logo.png"/>
+                <p>MongoDB</p>
+            </div>
+
+            <div>
+                <img height="80px" src="./photos/GitLogo.png"/>
+                <p>GIT</p>
+            </div>
+        </div>    
     </div>
-    <hr>
-    <h4 class="text-center mb-3">I have completed:</h4>
-    <div id="have_completed" class="row container">
-        <div class="offset-lg-2 offset-sm-1">
-            <div class="num_hrs text-center mr-sm-2">1200+</div>
-            <p class="text-center">Hours of coding</p>
-        </div>
-        <div>
-            <div class="num_hrs text-center mr-sm-2">100+</div>
-            <p class="text-center">Soft Skills training</p>
-        </div>
-        <div>
-            <div class="num_hrs text-center mr-sm-2">4</div>
-            <p class="text-center">Projects</p>
-        </div>
-        <div>
-            <div class="num_hrs text-center mr-sm-2">285+</div>
-            <p class="text-center">Git Commits</p>
-        </div>
+
+    <div id="ProficiencyMain">
+
+        <h2 > Github Stats and More:</h2>
+
+        <ul class="nav nav-tabs nav-justified" id="myTab" role="tablist">
+            <li class="nav-item" role="presentation">
+              <a class="nav-link active" id="home-tab" data-toggle="tab" href="#home" role="tab" aria-controls="home" aria-selected="true">Proficiencies</a>
+            </li>
+            <li class="nav-item" role="presentation">
+              <a class="nav-link" id="profile-tab" data-toggle="tab" href="#profile" role="tab" aria-controls="profile" aria-selected="false">Github Stats</a>
+            </li>
+          </ul>
+          <div class="tab-content" id="myTabContent">
+            <div class="tab-pane fade show active" id="home" role="tabpanel" aria-labelledby="home-tab">
+
+                <div id="ProficiencyBox">    
+                    <div>
+                        <img height="120px" src="./photos/frontend.png"/> 
+                        <h4>Front-end</h4>
+                        <p>I'm like Jimmy Fallon. I host the show and interact with people</p>
+                        <p>HTML | CSS | JavaScript | Bootstrap</p>
+                    </div>
+        
+                    <div>
+                        <img height="120px" src="./photos/react.png"/>
+                        <h4>React</h4>
+                        <p>I help seperate out the things required to run the show. I'm all about components and making it easy to run the show.</p>
+                        <p>React | Hooks API | Redux | React Router DOM | Material UI</p>
+                    </div>
+                    
+                    <div>
+                        <img height="120px" src="./photos/backend.png"/>
+                        <h4>Back-end</h4>
+                        <p>I'm the production, the things the audience doesn't see. I provide the data, manage who has access to what etc.</p>
+                        <p>Node | MongoDB |Express</p>
+                    </div>
+        
+                    <div>
+                        <img height="120px" src="./photos/DSA.png"/>
+                        <h4>Data Structures and Algorithms</h4>
+                        <p>The reason why everything runs efficiently is because of me. I put the things in their right place.</p>
+                    </div>   
+                </div>    
+
+            </div>
+            <div class="tab-pane fade githubStats" id="profile" role="tabpanel" aria-labelledby="profile-tab">
+                <img class="img-responsive img-fluid" src="./photos/GitHub.png" />
+                <br/>
+                <br/>
+                <img class="img-responsive img-fluid" src="./photos/GitHubUserStats.png" />
+            </div>
+        </div>        
     </div>
-    <h4 class="text-center mb-3">GitHub commits:</h4>
-    <div id="github_commits" class="text-center mb-3">
-        <p id="github_link" class="lead"><a href="https://github.com/RutvikJogdand">My GitHub Profile</a></p>
-        <img src="./photos/GitHub.png" alt="My GitHub commits" class="img-fluid img-responsive">
-    </div>
+
+    <div class="wrapper">
+        <h1>Projects</h1>
+            <div class="cols">
+                    <div class="col" ontouchstart="this.classList.toggle('hover');">
+                        <div class="container">
+                            <div class="front" style="background-image: url(./photos/Naturesbasket/NaturesBasketDashBoard.png)">
+                                <div class="inner">
+                                    <p>Nature's Basket Clone</p>
+                                    <span>
+                                        Tech-stack used:<br/>
+                                        <img src="https://img.icons8.com/officel/30/000000/react.png"/>
+                                        <img src="https://img.icons8.com/color/30/000000/redux.png"/>
+                                        <img src="https://img.icons8.com/color/30/000000/mongodb.png"/>
+                                        <img src="https://img.icons8.com/color/30/000000/css3.png"/>
+                                    </span>
+                                </div>
+                            </div>
+                            <div class="back">
+                                <div class="inner">
+                                    <p>This is a clone of the Nature's Basket website which is an online supermarket & grocery store.
+                                        The user can add products to cart. Search products by category, sub-category and brand and pay online
+                                        using the Razorpay option.  </p>
+                                     <a class="btn btn-dark" href="https://github.com/ahmedrzakhan/Food-Basket"><i class="shadow-lg fa fa-github"> GitHub</i> </a> &nbsp;
+                                     <a class="btn btn-dark" href="#"><i class="shadow-lg fa fa-external-link"> Demo</i> </a>   
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col" ontouchstart="this.classList.toggle('hover');">
+                        <div class="container">
+                            <div class="front" style="background-image: url(./photos/Schomato/SchomatoMain.png)">
+                                <div class="inner">
+                                    <p>Schomato</p>
+                                    <span>
+                                        Tech-stack used:<br/>
+                                        <img src="https://img.icons8.com/color/30/000000/html-5.png"/>
+                                        <img src="https://img.icons8.com/color/30/000000/css3.png"/>
+                                        <img src="https://img.icons8.com/officel/30/000000/react.png"/>
+                                        <img src="https://img.icons8.com/windows/30/000000/nodejs.png"/>
+                                    </span>
+                                </div>
+                            </div>
+                            <div class="back">
+                                <div class="inner">
+                                    <p>An app where a user can select the type of document from given templates, add details and 
+                                        the document will be ready in a proper format. 
+                                        User can also mail the document to the concerned person with just a simple click and get it signed as well!
+                                    </p>
+                                    <a class="btn btn-dark" href="https://github.com/Richa-24/The-R-Team"><i class="shadow-lg fa fa-github"> GitHub</i> </a> &nbsp;
+                                     <a class="btn btn-dark" href="https://drive.google.com/file/d/1adMIQXHe7mBLTf_D_E-NzG4jwtUswa_y/view?usp=sharing" target="_blank"><i class="shadow-lg fa fa-external-link"> Demo</i> </a> 
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col" ontouchstart="this.classList.toggle('hover');">
+                        <div class="container">
+                            <div class="front" style="background-image: url(./photos/EngineersHub/EngineersHubJobs.png)">
+                                <div class="inner">
+                                    <p>Engineer's Hub</p>
+                                    <span>
+                                        Tech-stack used:<br/>
+                                        <img src="https://img.icons8.com/color/30/000000/html-5.png"/>
+                                        <img src="https://img.icons8.com/color/30/000000/css3.png"/>
+                                        <img src="https://img.icons8.com/color/30/000000/javascript.png"/>
+                                    </span>
+                                </div>
+                            </div>
+                            <div class="back">
+                                <div class="inner">
+                                    <p>
+                                        A website where Engineers can stay updated with news, search for jobs and 
+                                        browse through some jokes. Made using three different APIs: News API, GitHub Jobs API and jokes API.
+                                    </p>
+                                    <a class="btn btn-dark" href="https://github.com/RutvikJogdand/masai-project-3"><i class="shadow-lg fa fa-github"> GitHub</i> </a> &nbsp;
+                                     <a class="btn btn-dark" href="https://drive.google.com/file/d/15F8IT7uAa9RCqq5ifpo9RikVgE3qxqKX/view?usp=sharing" target="_blank"><i class="shadow-lg fa fa-external-link"> Demo</i> </a> 
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col" ontouchstart="this.classList.toggle('hover');">
+                        <div class="container">
+                            <div class="front" style="background-image: url(./photos/FitnessTracker/fitnessTracker.png)">
+                                <div class="inner">
+                                    <p>Daily Calorie Tracker</p>
+                                    <span>
+                                        Tech-stack used:<br/>
+                                        <img src="https://img.icons8.com/color/30/000000/html-5.png"/>
+                                        <img src="https://img.icons8.com/color/30/000000/css3.png"/>
+                                        <img src="https://img.icons8.com/color/30/000000/javascript.png"/>
+                                    </span>
+                                </div>
+                            </div>
+                            <div class="back">
+                                <div class="inner">
+                                    <p>
+                                        An app to help you track your daily caloric intake and expenditure.
+                                        There is also a list of many food items with their associated caloric content provided
+                                        to make it easier for user to get info about caloric content of food items.
+                                    </p>
+                                    <a class="btn btn-dark" href="https://github.com/RutvikJogdand/masai-sprint-2.1"><i class="shadow-lg fa fa-github"> GitHub</i> </a> &nbsp;
+                                     <a class="btn btn-dark" href="https://drive.google.com/file/d/1-Fh-HhmasF9PBF7ff-KoI6Cows9bxlRR/view?usp=sharing" target="_blank"><i class="shadow-lg fa fa-external-link"> Demo</i> </a> 
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- <div class="col" ontouchstart="this.classList.toggle('hover');">
+                        <div class="container">
+                            <div class="front" style="background-image: url(https://unsplash.it/500/500/)">
+                                <div class="inner">
+                                    <p>Diligord</p>
+                        <span>Lorem ipsum</span>
+                                </div>
+                            </div>
+                            <div class="back">
+                                <div class="inner">
+                                    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Alias cum repellat velit quae suscipit c.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div> -->
+                    
+            </div>
+       </div>
+      
+
+       
+
     
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ho+j7jyWK8fNQe+A12Hb8AhRq26LrZ/JpcUGGOn+Y7RsweNrtN/tE3MoK7ZeZDyx" crossorigin="anonymous"></script>
     
 </body>
 </html>
