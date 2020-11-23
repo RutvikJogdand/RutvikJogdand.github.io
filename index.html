@@ -154,8 +154,8 @@
                 </div>    
 
             </div>
-            <div class="tab-pane fade githubStats" id="profile" role="tabpanel" aria-labelledby="profile-tab">
-                <div class="calendar">
+            <div class="tab-pane fade githubStats " id="profile" role="tabpanel" aria-labelledby="profile-tab">
+                <div  class="calendar img-fluid img-responsive">
                     <!-- Loading stuff -->
                     Loading the data just for you.
                 </div>
@@ -186,7 +186,7 @@
                                         The user can add products to cart. Search products by category, sub-category and brand and pay online
                                         using the Razorpay option.  </p>
                                      <a class="btn btn-dark" href="https://github.com/ahmedrzakhan/Food-Basket"><i class="shadow-lg fa fa-github"> GitHub</i> </a> &nbsp;
-                                     <!-- <a class="btn btn-dark" style="pointer-events: none;" href="#"><i class="shadow-lg fa fa-external-link"> Demo</i> </a>    -->
+                                     <a class="btn btn-dark" href="https://drive.google.com/file/d/1N3zn7voPUMXJrgwbR1_0fyrpHOyh1iUI/view?usp=sharing"><i class="shadow-lg fa fa-external-link"> Demo</i> </a>   
                                 </div>
                             </div>
                         </div>
@@ -300,7 +300,7 @@
      
         // Use a proxy
         GitHubCalendar(".calendar", "RutvikJogdand", {
-           proxy (username) {
+           proxy (RutvikJogdand) {
              return fetch(`https://your-proxy.com/github?user=${RutvikJogdand}`)
            }
         }).then(r => r.text())
