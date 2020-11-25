@@ -1,6 +1,6 @@
 #PhotoBox
 {
-    height: 455px;
+    height: 457px;
     border: 1px solid black;
     margin-top: 30px;
     background-image: url("./photos/ProfileBackgroud.jpg");
@@ -13,14 +13,14 @@
 {
     position: absolute;
    top: 13.5px;
-   left: -40px;
+   right: 10px;
    z-index: 1;
    height: 65%;
 }
 
 #AboutMe
 {
-    text-align: right;
+    text-align: left;
     color: white;
     padding: 20px;
     background-color: rgba(0, 0, 0, 0.295);
@@ -28,7 +28,7 @@
 
 #AboutMe > p
 {
-    padding-left: 170px;
+    padding-right: 200px;
 }
 
 .phoneEmail
@@ -112,16 +112,16 @@
     {
     position: relative;
     top: 225px;
-    right: 30px;
+    left:  150px;
     z-index: 1;
-    height: 50%;
+    height: 48%;
     }
 
     
     #AboutMe
     {
         position: relative;
-        bottom: 229px;
+        bottom: 220px;
         padding-right: 30px;
         padding-top: 1px;
         padding-bottom: 1px;
@@ -129,13 +129,14 @@
 
     #AboutMe > p
     {
-        padding-left: 10px;
+        /* padding-left: px; */
         font-size: 12px;
+        padding-right: 10px;
     }
 
     .phoneEmail
     {
-        margin-left: 8px;
+        /* margin-left: px; */
         font-size: 11px;
     }
 }
@@ -146,7 +147,7 @@
     {
     position: relative;
     top: 135px;
-    right: 30px;
+    left:  520px;
     z-index: 1;
     height: 70%;
     }
