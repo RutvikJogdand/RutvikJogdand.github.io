@@ -8,34 +8,37 @@
     <link rel="stylesheet" href="./portfolio.css" type="text/css"/>
     <script src="https://unpkg.com/github-calendar@latest/dist/github-calendar.min.js"></script> 
     <link rel="stylesheet" href="https://unpkg.com/github-calendar@latest/dist/github-calendar-responsive.css"/>
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@600&family=Sansita+Swashed:wght@700&display=swap" rel="stylesheet">
     <title>Rutvik Jogdand</title>
 </head>
 <body>
     <div id="PhotoBox">
-        <img src="photos/myPhoto_1_1.png"  />
+        <img src="./portfolio_pic.jpg"  />
         <div id="AboutMe">
-            About Me:
-            <p>
+            <span class="headings_personal"><u> About Me:</u>  </span>
+            <p class="headings-content">
                 I'm passionate about creating useful things. Web-development is both a hobby and a exciting career option.
                  Being at Masai School has given me the strength and skills required to meet demands of the corporate world. 
                 I look forward to working with a great team to help build useful products.
             </p>
 
             <div>
-                <p> From: <br/>
-                    <i class="fa fa-map-marker"></i> Navi Mumbai, India 
+                <p class="headings_personal"> From: <br/>
+                    <i class="fa fa-map-marker"></i> <span class="headings-content">Navi Mumbai, India </span> 
                 </p>
                 <p>
-                    Contact: 
-                    <span class="phoneEmail"> <i class="fa fa-phone"></i> +91-7021939049 </span> &nbsp;
+                   <span class="headings_personal">Contact:</span>  
+                    <span class="phoneEmail headings-content"> <i class="fa fa-phone"></i> +91-7021939049 </span> &nbsp;
                     <a class="linkToEmail" href="mailto:jogdandrutvik7@gmail.com">
-                        <span class="phoneEmail"> <i class="fa fa-envelope-o"></i> jogdandrutvik7@gmail.com </span>
+                        <span class="phoneEmail headings-content"> <i class="fa fa-envelope-o"></i> jogdandrutvik7@gmail.com </span>
                     </a>   
                 </p>
                 <p>
-                    <p>Find me on: </p>
+                    <p class="headings_personal">Find me on: </p>
                     <a href="https://github.com/RutvikJogdand">
-                        <img height="30px" src="./photos/GithubLogo.jpg"/> 
+                        <img height="30px" src="./photos/GithubLogo.png"/> 
                     </a>&nbsp; &nbsp;
 
                     <a href="https://www.hackerrank.com/jogdandrutvik7"> 
@@ -52,119 +55,8 @@
         </div>
     </div>
 
-    <div id="TechStack">
-
-        <h2 >Tech-stack:</h2>
-
-        <div id="techKnown">    
-            <div>
-                <img height="80px" src="./photos/html.png"/> 
-                <p>HTML</p>
-            </div>
-
-            <div>
-                <img height="80px" src="./photos/css.png"/>
-                <p>CSS</p>
-            </div>
-            
-            <div>
-                <img height="80px" src="./photos/bootstrap.png"/>
-                <p>Bootstrap</p>
-            </div>
-
-            <div>
-                <img height="80px" src="./photos/javascript.png"/>
-                <p>Javascript</p>
-            </div>
-
-            <div>
-                <img height="80px" src="./photos/reactLogo.jpg"/>
-                <p>React</p>
-            </div>
-
-            <div>
-                <img height="80px" src="./photos/reduxLogo.png"/>
-                <p>Redux</p>
-            </div>
-
-            <div>
-                <img height="80px" src="./photos/mongoDB-Logo.png"/>
-                <p>MongoDB</p>
-            </div>
-
-            <div>
-                <img height="80px" src="./photos/GitLogo.png"/>
-                <p>GIT</p>
-            </div>
-
-            <div>
-                <img src="https://img.icons8.com/color/80/000000/nodejs.png"/>
-                <p>NodeJS</p>
-            </div>
-
-            <div>
-                <img height="80px" src="./photos/express.png"/>
-                <p>ExpressJS</p>
-            </div>
-        </div>    
-    </div>
-
-    <div id="ProficiencyMain">
-
-        <h2 > Github Stats and More:</h2>
-
-        <ul class="nav nav-tabs nav-justified" id="myTab" role="tablist">
-            <li class="nav-item" role="presentation">
-              <a class="nav-link active" id="home-tab" data-toggle="tab" href="#home" role="tab" aria-controls="home" aria-selected="true">Proficiencies</a>
-            </li>
-            <li class="nav-item" role="presentation">
-              <a class="nav-link" id="profile-tab" data-toggle="tab" href="#profile" role="tab" aria-controls="profile" aria-selected="false">Github Stats</a>
-            </li>
-          </ul>
-          <div class="tab-content" id="myTabContent">
-            <div class="tab-pane fade show active" id="home" role="tabpanel" aria-labelledby="home-tab">
-
-                <div id="ProficiencyBox">    
-                    <div>
-                        <img height="120px" src="./photos/frontend.png"/> 
-                        <h4>Front-end</h4>
-                        <p>I'm like Jimmy Fallon. I host the show and interact with people</p>
-                        <p>HTML | CSS | JavaScript | Bootstrap</p>
-                    </div>
-        
-                    <div>
-                        <img height="120px" src="./photos/react.png"/>
-                        <h4>React</h4>
-                        <p>I help seperate out the things required to run the show. I'm all about components and making it easy to run the show.</p>
-                        <p>React | Hooks API | Redux | React Router DOM | Material UI</p>
-                    </div>
-                    
-                    <div>
-                        <img height="120px" src="./photos/backend.png"/>
-                        <h4>Back-end</h4>
-                        <p>I'm the production, the things the audience doesn't see. I provide the data, manage who has access to what etc.</p>
-                        <p>Node | MongoDB |Express</p>
-                    </div>
-        
-                    <div>
-                        <img height="120px" src="./photos/DSA.png"/>
-                        <h4>Data Structures and Algorithms</h4>
-                        <p>The reason why everything runs efficiently is because of me. I put the things in their right place.</p>
-                    </div>   
-                </div>    
-
-            </div>
-            <div class="tab-pane fade githubStats " id="profile" role="tabpanel" aria-labelledby="profile-tab">
-                <div  class="calendar img-fluid img-responsive">
-                    <!-- Loading stuff -->
-                    Loading the data just for you.
-                </div>
-            </div>
-        </div>        
-    </div>
-
-    <div class="wrapper">
-        <h1>Projects</h1>
+     <div class="wrapper">
+         <h1 class="headings_personal"><u> Projects </u></h1>
             <div class="cols">
                     <div class="col" ontouchstart="this.classList.toggle('hover');">
                         <div class="container">
@@ -327,6 +219,138 @@
                     
             </div>
        </div>
+
+    <div id="TechStack">
+
+        <h2 class="headings_personal"><u> Tech-stack: </u></h2>
+
+        <div id="techKnown">    
+
+            <div>
+                <img height="80px" src="./photos/reactLogo.jpg"/>
+                <p>React</p>
+            </div>
+
+            <div>
+                <img height="80px" src="./photos/reduxLogo.png"/>
+                <p>Redux</p>
+            </div>
+
+            <div>
+                <img height="80px" src="./photos/mongoDB-Logo.png"/>
+                <p>MongoDB</p>
+            </div>
+
+            <div>
+                <img height="80px" src="./photos/html.png"/> 
+                <p>HTML</p>
+            </div>
+
+            <div>
+                <img height="80px" src="./photos/css.png"/>
+                <p>CSS</p>
+            </div>
+            
+            <div>
+                <img height="80px" src="./photos/bootstrap.png"/>
+                <p>Bootstrap</p>
+            </div>
+
+            <div>
+                <img height="80px" src="./photos/javascript.png"/>
+                <p>Javascript</p>
+            </div>
+
+            <div>
+                <img height="80px" src="./photos/GitLogo.png"/>
+                <p>GIT</p>
+            </div>
+
+            <div>
+                <img src="https://img.icons8.com/color/80/000000/nodejs.png"/>
+                <p>NodeJS</p>
+            </div>
+
+            <div>
+                <img height="80px" src="./photos/express.png"/>
+                <p>ExpressJS</p>
+            </div>
+        </div>    
+    </div>
+
+    <div id="ProficiencyMain">
+
+        <h2 class="headings_personal"><u> Github Stats and More: </u></h2>
+
+        <ul class="nav nav-tabs nav-justified navLinksContainer" id="myTab" role="tablist">
+            <li class="nav-item" role="presentation">
+              <a class="nav-link active navLinks" id="home-tab" data-toggle="tab" href="#home" role="tab" aria-controls="home" aria-selected="true">Proficiencies</a>
+            </li>
+            <li class="nav-item" role="presentation">
+              <a class="nav-link navLinks" id="profile-tab" data-toggle="tab" href="#profile" role="tab" aria-controls="profile" aria-selected="false">Github Stats</a>
+            </li>
+          </ul>
+          <div class="tab-content" id="myTabContent">
+            <div class="tab-pane fade show active" id="home" role="tabpanel" aria-labelledby="home-tab">
+
+                <div id="ProficiencyBox">    
+                    <div>
+                        <img height="120px" src="./photos/frontend.png"/> 
+                        <h4>Front-end</h4>
+                        <!-- <p>I'm like Jimmy Fallon. I host the show and interact with people</p> -->
+                        <p>HTML | CSS | JavaScript | Bootstrap</p>
+                    </div>
+        
+                    <div>
+                        <img height="120px" src="./photos/react.png"/>
+                        <h4>React</h4>
+                        <!-- <p>I help seperate out the things required to run the show. I'm all about components and making it easy to run the show.</p> -->
+                        <p>React | Hooks API | Redux | React Router DOM | Material UI</p>
+                    </div>
+                    
+                    <div>
+                        <img height="120px" src="./photos/backend.png"/>
+                        <h4>Back-end</h4>
+                        <!-- <p>I'm the production, the things the audience doesn't see. I provide the data, manage who has access to what etc.</p> -->
+                        <p>Node | MongoDB |Express</p>
+                    </div>
+        
+                    <div>
+                        <img height="120px" src="./photos/DSA.png"/>
+                        <h4>Data Structures and Algorithms</h4>
+                        <p>The reason why everything runs efficiently is because of me. I put the things in their right place.</p>
+                    </div>   
+                </div>    
+
+            </div>
+            <div class="tab-pane fade githubStats " id="profile" role="tabpanel" aria-labelledby="profile-tab">
+                <div  class="calendar img-fluid img-responsive">
+                    <!-- Loading stuff -->
+                    Loading the data just for you.
+                </div>
+            </div>
+        </div>        
+    </div>
+
+    <div id="HoursSpent">
+        <p class="rounded-circle">
+            <img src="./photos/HoursStats/1200+.png" /><br/>
+           <span class="headings_personal"> Hours of coding </span>
+        </p>
+        <p class="rounded-circle">
+            <img src="./photos/HoursStats/300+.png" /><br/>
+            <span class="headings_personal"> Data structures and Algorithms problems</span>
+        </p>
+        <p class="rounded-circle">
+            <img src="./photos/HoursStats/10+.png" /><br/>
+            <span class="headings_personal"> Projects</span>
+        </p>
+        <p class="rounded-circle">
+            <img src="./photos/HoursStats/100+.png" /><br/>
+           <span class="headings_personal"> Hours of soft-skills</span>
+        </p>
+    </div>
+    
       
 
        <script>

@@ -1,29 +1,30 @@
 #PhotoBox
 {
     height: 457px;
-    border: 1px solid black;
-    margin-top: 30px;
-    background-image: url("./photos/ProfileBackgroud.jpg");
+    /* border: 1px solid black; */
+    /* margin-top: 30px; */
+    background-image: url("./photos/MainBackgrounds/Bue2.png");
     background-size: cover;
-    background-position: center;
+    background-position: inherit;
     background-repeat: no-repeat;
 }
 
 #PhotoBox > img
 {
     position: absolute;
-   top: 13.5px;
+   top: 125.5px;
    right: 10px;
    z-index: 1;
-   height: 65%;
+   height: 35%;
+   border-radius: 200px;
 }
 
 #AboutMe
 {
     text-align: left;
-    color: white;
+    color: rgb(0, 0, 0);
     padding: 20px;
-    background-color: rgba(0, 0, 0, 0.295);
+    /* background-color: rgba(0, 0, 0, 0.295); */
 }
 
 #AboutMe > p
@@ -39,12 +40,22 @@
 .linkToEmail
 {
     text-decoration: none;
-    color: white;
+    color: rgb(0, 0, 0);
 }
 
 .linkToEmail:hover
 {
     color: white;
+}
+
+.headings_personal
+{
+  font-family:'Sansita Swashed', cursive;
+}
+
+.headings-content
+{
+  font-family: 'Montserrat', sans-serif;
 }
 
 #techKnown, #ProficiencyBox
@@ -58,12 +69,13 @@
 #TechStack, #ProficiencyMain
 {
     padding: 10px;
+    margin-top: 40px;
 }
 
 #TechStack > h2
 {
     text-align: center;
-    border-bottom: 1px solid gainsboro;
+    /* border-bottom: 1px solid gainsboro; */
 }
 
 #ProficiencyMain > h2
@@ -99,29 +111,79 @@
     box-shadow:         0px 2px 7px 0px rgba(50, 50, 50, 0.88);
 }
 
+#ProficiencyBox > div > h4
+{
+  font-family:'Sansita Swashed', cursive;
+}
+
+#ProficiencyBox > div > p
+{
+  font-family: 'Montserrat', sans-serif;
+}
+
 .githubStats
 {
     text-align: center;
 }
 
+.navLinksContainer
+{
 
+  font-family: 'Montserrat', sans-serif;
+}
+
+
+.navLinks:focus
+{
+  background-color: rgba(255, 0, 0, 0.479);
+}
+
+#HoursSpent
+{
+  display: flex;
+  text-align: center;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin-top: 40px;
+  padding: 20px;
+  background-image: url("./photos/MainBackgrounds/Blue3.png");
+  background-size: inherit;
+  background-position: center;
+  background-repeat: repeat-x;
+}
+
+#HoursSpent > p
+{
+  flex: 1;
+ min-width: 200px;
+ max-width: 210px;
+
+}
 
 @media only screen and (min-width: 280px) and (max-width: 578px)
 {
     #PhotoBox > img
     {
     position: relative;
-    top: 225px;
-    left:  150px;
+    top: 275px;
+    left:  180px;
     z-index: 1;
-    height: 48%;
+    height: 28%;
+    }
+
+    #PhotoBox
+    {
+      background-image: url("./photos/MainBackgrounds/Bue2.png");
+      background-size: cover;
+      background-position: center;
+      background-repeat: no-repeat;
     }
 
     
     #AboutMe
     {
         position: relative;
-        bottom: 220px;
+        bottom: 120px;
         padding-right: 30px;
         padding-top: 1px;
         padding-bottom: 1px;
@@ -146,16 +208,16 @@
     #PhotoBox > img
     {
     position: relative;
-    top: 135px;
+    top: 335px;
     left:  520px;
     z-index: 1;
-    height: 70%;
+    height: 40%;
     }
 
     #AboutMe
     {
         position: relative;
-        bottom: 290px;
+        bottom: 190px;
         padding-right: 30px;
     }
 
@@ -316,6 +378,7 @@
   .front .inner p{
     font-size: 20px;
     /* margin-bottom: 2rem; */
+    font-family:'Sansita Swashed', cursive;
     position: relative;
   }
   
