@@ -98,6 +98,11 @@
     -moz-box-shadow:    0px 2px 7px 0px rgba(50, 50, 50, 0.88);
     box-shadow:         0px 2px 7px 0px rgba(50, 50, 50, 0.88);
 }
+
+#techKnown > div > p
+{
+  font-family:'Sansita Swashed', cursive;
+}
  
 #ProficiencyBox > div
 {
