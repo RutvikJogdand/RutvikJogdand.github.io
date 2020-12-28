@@ -123,6 +123,12 @@
   font-family:'Sansita Swashed', cursive;
 }
 
+.resumeBtn
+{
+  font-family: 'Montserrat', sans-serif;
+  font-size: 14px;
+}
+
 #ProficiencyBox > div > p
 {
   font-family: 'Montserrat', sans-serif;
